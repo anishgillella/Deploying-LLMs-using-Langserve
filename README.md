@@ -47,6 +47,9 @@ The client script is straightforward to use. It sends a POST request to the Fast
 - `client.py` contains code that makes a POST request to the `/essay/invoke` endpoint of your FastAPI server, submits a JSON payload with a topic, and prints the response.
 - The script is currently configured to request an essay about "Hitler". Modify the `json` parameter in the `requests.post()` call to change the topic or target different endpoints (like poems).
 
+### Documentation for Langserve : https://www.langchain.com/langserve
+### Documentation for Langchain : https://www.langchain.com
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests, create issues for bugs, or suggest enhancements.
